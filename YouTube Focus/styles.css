@@ -1,0 +1,26 @@
+/* Hide sidebar */
+#guide-content,
+#guide-inner-content,
+ytd-guide-renderer {
+  display: none !important;
+}
+
+/* Clean up the header */
+ytd-mini-guide-renderer {
+  display: none !important;
+}
+
+/* Center the search bar */
+ytd-searchbox {
+  margin: 0 auto !important;
+}
+
+/* Hide comments section */
+#comments {
+  display: none !important;
+}
+
+/* Hide related videos */
+#related {
+  display: none !important;
+} 

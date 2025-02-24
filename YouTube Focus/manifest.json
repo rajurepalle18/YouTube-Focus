@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Focus",
+  "version": "1.0",
+  "description": "Hide YouTube distractions and focus on your search",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+} 
